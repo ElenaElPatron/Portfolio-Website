@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Editor / Tools
+.claude/
+
+# Original-Fotos (Quellmaterial, NICHT fürs Web – die optimierten liegen in assets/)
+Fotos/
+
+# Dependencies / Logs (falls je verwendet)
+node_modules/
+*.log

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+<meta charset="UTF-8" />
+<title>Lebenslauf – Elena Anissa Bader</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700;800;900&family=Bodoni+Moda:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --pink:#ff007f; --orange:#ff6f00; --ink:#14110d; --ink-soft:#5c554b;
+    --cream:#fbf8f2; --line:#e7e0d2;
+    --display:"Archivo",sans-serif; --script:"Bodoni Moda",Georgia,serif; --body:"Inter",sans-serif;
+  }
+  *{ margin:0; padding:0; box-sizing:border-box; }
+  @page{ size:A4; margin:0; }
+  html,body{ background:#fff; }
+  body{ font-family:var(--body); color:var(--ink); line-height:1.5; font-size:10.2px; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+
+  .page{ width:210mm; min-height:297mm; margin:0 auto; display:grid; grid-template-columns:68mm 1fr; background:#fff; }
+
+  /* ---------- Sidebar ---------- */
+  .side{ background:var(--cream); padding:11mm 9mm; border-right:1px solid var(--line); }
+  .photo{ width:44mm; height:50mm; border-radius:7px; overflow:hidden; margin:0 auto 6mm; box-shadow:0 6px 18px rgba(20,17,13,.14); }
+  .photo img{ width:100%; height:100%; object-fit:cover; display:block; }
+
+  .s-block{ margin-bottom:4.4mm; }
+  .s-title{ font-family:var(--display); font-weight:800; text-transform:uppercase; letter-spacing:.12em; font-size:9px; color:var(--pink); margin-bottom:3mm; padding-bottom:1.3mm; border-bottom:1.5px solid var(--pink); }
+  .s-row{ margin-bottom:2.2mm; }
+  .s-row .k{ font-family:var(--display); font-weight:700; font-size:9px; text-transform:uppercase; letter-spacing:.04em; color:var(--ink-soft); }
+  .s-row .v{ font-size:10.5px; word-break:break-word; }
+  .s-row .v a{ color:var(--ink); text-decoration:none; }
+
+  .skill{ margin-bottom:3mm; }
+  .skill .lbl{ display:flex; justify-content:space-between; font-weight:600; font-size:10px; margin-bottom:1.4mm; }
+  .skill .bar{ height:3.4px; background:#e9e2d4; border-radius:9px; overflow:hidden; }
+  .skill .bar span{ display:block; height:100%; background:var(--pink); border-radius:9px; }
+  .skill:nth-child(even) .bar span{ background:var(--orange); }
+
+  .tags{ display:flex; flex-wrap:wrap; gap:2mm; }
+  .tags span{ font-size:9.2px; font-weight:600; padding:1.4mm 2.6mm; border:1px solid var(--line); border-radius:20px; color:var(--ink-soft); }
+
+  /* ---------- Main ---------- */
+  .main{ padding:11mm 12mm 10mm; }
+  .name{ font-family:var(--display); font-weight:900; font-size:28px; line-height:.98; letter-spacing:-.02em; text-transform:uppercase; }
+  .role{ font-family:var(--script); font-size:15px; color:var(--pink); margin-top:1.6mm; }
+  .role small{ font-family:var(--body); color:var(--ink-soft); font-size:10px; font-style:normal; }
+  .lead{ color:var(--ink-soft); margin:4mm 0 6mm; font-size:10.2px; }
+
+  .m-title{ font-family:var(--display); font-weight:900; text-transform:uppercase; letter-spacing:.04em; font-size:12px; margin:0 0 3.2mm; display:flex; align-items:center; gap:3mm; }
+  .m-title::after{ content:""; flex:1; height:2px; background:var(--orange); opacity:.5; }
+  .m-block{ margin-bottom:5.5mm; }
+
+  .item{ position:relative; padding-left:6mm; margin-bottom:3.4mm; border-left:1.5px solid var(--line); }
+  .item::before{ content:""; position:absolute; left:-3.1px; top:1.5mm; width:5px; height:5px; border-radius:50%; background:var(--pink); }
+  .item:nth-child(even)::before{ background:var(--orange); }
+  .item .when{ font-family:var(--display); font-weight:700; font-size:8.6px; text-transform:uppercase; letter-spacing:.05em; color:var(--orange); }
+  .item .what{ font-family:var(--display); font-weight:800; font-size:11.5px; margin:.4mm 0; }
+  .item .where{ font-weight:600; color:var(--ink); font-size:10px; }
+  .item .desc{ color:var(--ink-soft); font-size:9.8px; margin-top:.6mm; }
+
+  .refs{ display:flex; gap:6mm; }
+  .ref{ flex:1; }
+  .ref .rn{ font-family:var(--display); font-weight:800; font-size:10.5px; }
+  .ref .rr{ color:var(--ink-soft); font-size:9.4px; }
+  .ref .rp{ color:var(--ink); font-size:10px; margin-top:.6mm; }
+</style>
+</head>
+<body>
+  <div class="page">
+    <!-- SIDEBAR -->
+    <aside class="side">
+      <div class="photo"><img src="assets/fotos/portrait.jpg" alt="Elena Anissa Bader" /></div>
+
+      <div class="s-block">
+        <div class="s-title">Kontakt</div>
+        <div class="s-row"><div class="k">Adresse</div><div class="v">Jungfraustrasse 9<br>3600 Thun</div></div>
+        <div class="s-row"><div class="k">Telefon</div><div class="v">079 350 74 56</div></div>
+        <div class="s-row"><div class="k">E-Mail</div><div class="v"><a href="mailto:elba@bluewin.ch">elba@bluewin.ch</a></div></div>
+        <div class="s-row"><div class="k">Geburtsdatum</div><div class="v">04.12.2004</div></div>
+      </div>
+
+      <div class="s-block">
+        <div class="s-title">Sprachen</div>
+        <div class="s-row"><div class="v"><strong>Deutsch</strong> – Muttersprache</div></div>
+        <div class="s-row"><div class="v"><strong>Englisch</strong> – gut bis sehr gut</div></div>
+      </div>
+
+      <div class="s-block">
+        <div class="s-title">Programme</div>
+        <div class="skill"><div class="lbl"><span>Lightroom</span></div><div class="bar"><span style="width:96%"></span></div></div>
+        <div class="skill"><div class="lbl"><span>Photoshop</span></div><div class="bar"><span style="width:90%"></span></div></div>
+        <div class="skill"><div class="lbl"><span>Premiere Pro</span></div><div class="bar"><span style="width:90%"></span></div></div>
+        <div class="skill"><div class="lbl"><span>InDesign</span></div><div class="bar"><span style="width:90%"></span></div></div>
+        <div class="skill"><div class="lbl"><span>Illustrator</span></div><div class="bar"><span style="width:90%"></span></div></div>
+      </div>
+
+      <div class="s-block">
+        <div class="s-title">Stärken</div>
+        <div class="tags"><span>Kreativität</span><span>Teamfähigkeit</span><span>Empathie</span><span>Hilfsbereitschaft</span><span>Sorgfalt</span><span>Ehrgeiz</span></div>
+      </div>
+
+      <div class="s-block">
+        <div class="s-title">Interessen</div>
+        <div class="tags"><span>Fotografie</span><span>Videografie</span><span>Gestaltung</span><span>Mediengestaltung</span><span>Hund Lona</span><span>Tiere &amp; Pferde</span><span>Motorrad</span><span>Klavier</span><span>Natur</span></div>
+      </div>
+    </aside>
+
+    <!-- MAIN -->
+    <main class="main">
+      <h1 class="name">Elena Anissa<br>Bader</h1>
+      <p class="role">Mediamatikerin EFZ <small>· Abschluss Sommer 2026</small></p>
+
+      <p class="lead">Angehende Mediamatikerin EFZ mit Leidenschaft für Fotografie, Gestaltung und digitale Medien. Empathisch, humorvoll und eine echte Teamplayerin – ich arbeite kreativ und sorgfältig und setze meine Ideen mit Ehrgeiz um.</p>
+
+      <section class="m-block">
+        <h2 class="m-title">Berufserfahrung &amp; Ausbildung</h2>
+
+        <div class="item">
+          <div class="when">08/2022 – 07/2026</div>
+          <div class="what">Ausbildung zur Mediamatikerin EFZ</div>
+          <div class="where">Stadt Bern · Präsidialdirektion – Digital Stadt Bern</div>
+          <div class="desc">Projekte von der Idee bis zur Umsetzung begleiten. Schwerpunkte: Fotografie, Bildbearbeitung, Gestaltung, Storytelling und Video.</div>
+        </div>
+
+        <div class="item">
+          <div class="when">08/2021 – 07/2022</div>
+          <div class="what">Gestalterisches Jahr</div>
+          <div class="where">Kunstschule INVERS</div>
+          <div class="desc">Kreative Grundlagen, Gespür für Form, Farbe und Gestaltung.</div>
+        </div>
+
+        <div class="item">
+          <div class="when">02/2021 – 08/2021</div>
+          <div class="what">Temporäre Einsätze</div>
+          <div class="where">Babysitting · Büroaushilfe (Equam) · Mithilfe bei den Grosseltern</div>
+          <div class="desc">Verantwortung, Zuverlässigkeit und erste Arbeitserfahrung.</div>
+        </div>
+
+        <div class="item">
+          <div class="when">08/2020 – 02/2021</div>
+          <div class="what">Kaufmännische Grundbildung (Teil)</div>
+          <div class="where">Erste Schritte in einer KV-Lehre</div>
+          <div class="desc">Wertvoller Einblick, der mir meine Stärken im kreativen Bereich aufzeigte.</div>
+        </div>
+      </section>
+
+      <section class="m-block">
+        <h2 class="m-title">Schulbildung</h2>
+        <div class="item">
+          <div class="when">2022 – 2026</div>
+          <div class="what">Berufsfachschule</div>
+          <div class="where">Berufsbildungszentrum Biel (BBZ)</div>
+          <div class="desc">Schulische Ausbildung zur Mediamatikerin EFZ.</div>
+        </div>
+        <div class="item">
+          <div class="when">bis 2020</div>
+          <div class="what">Obligatorische Schule</div>
+          <div class="where">Abschluss der obligatorischen Schulzeit</div>
+        </div>
+      </section>
+
+      <section class="m-block">
+        <h2 class="m-title">Referenzen</h2>
+        <div class="refs">
+          <div class="ref">
+            <div class="rn">Corina Kohler</div>
+            <div class="rr">Direktionsberufsbildnerin · Präsidialdirektion</div>
+            <div class="rp">031 321 62 39</div>
+          </div>
+          <div class="ref">
+            <div class="rn">Daniela Zryd</div>
+            <div class="rr">Berufsbildnerin</div>
+            <div class="rp">031 321 71 42</div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

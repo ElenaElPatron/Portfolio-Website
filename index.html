@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- ============ SEO ============ -->
+<title>Elena – Mediamatikerin EFZ | Portfolio &amp; Bewerbung</title>
+<meta name="description" content="Portfolio von Elena, angehende Mediamatikerin EFZ in der Schweiz (Abschluss Sommer 2026). Fotografie, Gestaltung, Video und Social Media. Offen für Praktikum oder Anstellung – Arbeiten, Werdegang und Lebenslauf auf einen Blick." />
+<meta name="keywords" content="Mediamatikerin, Mediamatiker EFZ, Portfolio, Fotografie, Grafik, Gestaltung, Social Media, Video, Bewerbung, Praktikum, Stelle, Schweiz" />
+<meta name="author" content="Elena" />
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#ff007f" />
+<link rel="canonical" href="https://elena-portfolio.ch/" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Elena – Mediamatikerin EFZ | Portfolio" />
+<meta property="og:description" content="Fotografie, Gestaltung, Video und Social Media – das Portfolio von Elena, angehende Mediamatikerin EFZ (Abschluss Sommer 2026)." />
+<meta property="og:locale" content="de_CH" />
+<!-- og:image: nach dem Hochladen durch echte, absolute Bild-URL ersetzen -->
+<meta property="og:image" content="https://elena-portfolio.ch/assets/fotos/portrait.jpg" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Elena – Mediamatikerin EFZ | Portfolio" />
+<meta name="twitter:description" content="Fotografie, Gestaltung, Video und Social Media – das Portfolio von Elena, Mediamatikerin EFZ." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Bodoni Moda = eleganter Akzent (Name, kleine Überschriften) · Archivo = fette Display-Font · Inter = Fliesstext -->
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,600;0,700;0,800;0,900;1,800&family=Bodoni+Moda:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css?v=15" />
+
+<!-- Strukturierte Daten für Google (Person / Berufsprofil) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Elena",
+  "jobTitle": "Mediamatikerin EFZ",
+  "description": "Angehende Mediamatikerin EFZ (Abschluss Sommer 2026) mit Schwerpunkt Fotografie, Gestaltung, Video und Social Media.",
+  "knowsAbout": ["Fotografie", "Bildbearbeitung", "Grafik & Layout", "Videoschnitt", "Social Media", "Mediengestaltung"],
+  "address": { "@type": "PostalAddress", "addressCountry": "CH" },
+  "seeks": { "@type": "Demand", "name": "Praktikum oder Anstellung als Mediamatikerin" }
+}
+</script>
+</head>
+<body>
+
+  <!-- ============ LOADING SCREEN ============ -->
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader__inner">
+      <p class="loader__hello">Hey,</p>
+      <h2 class="loader__welcome">herzlich Willkommen!</h2>
+      <div class="loader__bar"><span id="loaderBar"></span></div>
+    </div>
+  </div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <a href="#home" class="nav__brand">Elena</a>
+    <nav class="nav__links" id="navLinks" aria-label="Hauptnavigation">
+      <a href="#ueber-mich">Wer bin ich</a>
+      <a href="#faehigkeiten">Fähigkeiten</a>
+      <a href="#galerie">Arbeiten</a>
+      <a href="#werdegang">Werdegang</a>
+      <a href="#kontakt" class="nav__cta">Kontakt</a>
+    </nav>
+    <button class="nav__burger" id="navBurger" aria-label="Menü öffnen" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+
+  <!-- ============ HERO / WER BIN ICH ============ -->
+  <section class="hero" id="home" aria-label="Startseite">
+    <div class="hero__inner">
+      <span class="badge reveal">
+        <span class="badge__dot"></span> Offen für neue Möglichkeiten
+      </span>
+
+      <h1 class="hero__title">
+        <span class="reveal-mask"><span class="reveal-mask__in">MEDIA</span></span>
+        <span class="reveal-mask"><span class="reveal-mask__in">MATIKERIN.</span></span>
+        <span class="reveal-mask"><span class="reveal-mask__in hero__title--accent">Hallo, ich bin Elena</span></span>
+      </h1>
+
+      <p class="hero__lede reveal">
+        Angehende <strong>Mediamatikerin EFZ</strong> (Abschluss Sommer 2026) mit
+        Leidenschaft für Fotografie, Gestaltung und digitale Medien. Ich verbinde
+        Kreativität mit Technik – und mache Ideen sichtbar.
+      </p>
+
+      <div class="hero__actions reveal">
+        <a href="#galerie" class="btn btn--solid">Meine Arbeiten ansehen</a>
+        <a href="assets/Lebenslauf-Elena.pdf" class="btn btn--glass" download>
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Lebenslauf
+        </a>
+      </div>
+    </div>
+
+    <a href="#ueber-mich" class="hero__scroll" aria-label="Nach unten scrollen">
+      <span>Scroll</span>
+      <span class="hero__scroll-line"></span>
+    </a>
+  </section>
+
+  <!-- ============ ÜBER MICH ============ -->
+  <section class="section about" id="ueber-mich" aria-labelledby="about-title">
+    <div class="section__head reveal">
+      <span class="tag tag--pink">01 — Wer bin ich</span>
+      <h2 class="section__title" id="about-title">Über <em>mich</em></h2>
+    </div>
+
+    <div class="about__grid">
+      <figure class="about__photo reveal">
+        <img src="assets/fotos/portrait.jpg" alt="Porträtfoto von Elena, Mediamatikerin EFZ" loading="lazy" />
+        <figcaption class="about__photo-cap">Elena, 21 Jahre · <span>angehende Mediamatikerin EFZ</span></figcaption>
+      </figure>
+
+      <div class="about__text reveal">
+        <p class="about__big">
+          Ich sehe die Welt durch die Linse – und mache aus Momenten
+          <span class="hl hl--pink">Geschichten</span>.
+        </p>
+        <p>
+          Was mich ausmacht? Ich bin ein sehr empathischer, humorvoller Mensch und
+          eine echte Teamplayerin – <strong>Hilfsbereitschaft</strong> wird bei mir
+          grossgeschrieben.
+          Ich gehe offen auf andere zu und arbeite am liebsten dort, wo man gemeinsam
+          etwas Schönes erschafft.
+        </p>
+        <p>
+          Ich lasse mich schnell und gerne von den unterschiedlichsten Dingen
+          <span class="hl hl--orange">inspirieren und begeistern</span> – und habe
+          meist mehr Ideen, als der Tag Stunden hat. Diese möchte ich auch umsetzen:
+          Habe ich eine Vision, bin ich ehrgeizig und bleibe dran, bis ich erreiche,
+          was ich mir in den Kopf gesetzt habe.
+        </p>
+
+        <ul class="about__facts">
+          <li><strong>Ausbildung</strong> Mediamatikerin EFZ</li>
+          <li><strong>Abschluss</strong> Sommer 2026</li>
+          <li><strong>Schwerpunkt</strong> Fotografie &amp; Gestaltung</li>
+          <li><strong>Status</strong> offen für Praktikum &amp; Stelle</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Persönlicher Teil -->
+    <div class="personal">
+      <div class="personal__head reveal">
+        <p class="script-accent">… und abseits vom Bildschirm</p>
+        <h3 class="personal__title">Das macht mich <em>aus</em></h3>
+        <p class="personal__intro">Neben der Kamera schlägt mein Herz noch für ein paar andere Dinge – diese drei begleiten mich durchs Leben.</p>
+      </div>
+
+      <!-- Bilder austauschen: src durch eigene Datei ersetzen, z. B. assets/persoenlich/lona.jpg -->
+      <div class="personal__cards">
+        <article class="pcard reveal">
+          <div class="pcard__img">
+            <img src="assets/persoenlich/lona.jpg" alt="Elena mit ihrer Hündin Lona in der Natur" loading="lazy" />
+          </div>
+          <div class="pcard__body">
+            <h4>Lona &amp; ich</h4>
+            <p>Lona ist meine treue Begleiterin und beste Freundin – man kennt mich eigentlich nur mit ihr. Jede freie Minute nutze ich für gemeinsame Zeit in der Natur, und mit dem Thunersee direkt vor der Haustür ist das eine wunderschöne Möglichkeit. Oft mit dabei: Frappé, der kleine braune Hund und Lonas bester Freund.</p>
+          </div>
+        </article>
+
+        <article class="pcard reveal">
+          <div class="pcard__img">
+            <img src="assets/persoenlich/familie.jpg" alt="Elena verbringt Zeit mit Freunden und Familie" loading="lazy" />
+          </div>
+          <div class="pcard__body">
+            <h4>Freunde &amp; Familie</h4>
+            <p>Meine freien Minuten verbringe ich am liebsten mit Freunden und Familie. Die Menschen in meinem Umfeld sind mir enorm wichtig – eine Einzelgängerin bin ich definitiv nicht.</p>
+          </div>
+        </article>
+
+        <article class="pcard reveal">
+          <div class="pcard__img">
+            <img src="assets/persoenlich/pferd.jpg" alt="Elenas Pflegepferd auf dem Bauernhof" loading="lazy" />
+          </div>
+          <div class="pcard__body">
+            <h4>Tiere &amp; Natur</h4>
+            <p>Tiere sind meine grosse Begeisterung – egal ob Fuchs, Vogel, Schlange oder Pferd, sie sind für mich etwas ganz Besonderes. So würde mich auch mein Umfeld beschreiben: tierfreundlich durch und durch. Auf einem Bauernhof habe ich sogar ein Pflegepferd, bei dem ich besonders gerne Zeit verbringe.</p>
+          </div>
+        </article>
+
+        <article class="pcard reveal">
+          <div class="pcard__img">
+            <img src="assets/persoenlich/motorrad.jpg" alt="Elena auf ihrem Motorrad unterwegs" loading="lazy" />
+          </div>
+          <div class="pcard__body">
+            <h4>Motorrad</h4>
+            <p>Ich fahre sehr gerne und immer, wenn ich kann, mit meinem Motorrad. Das bietet mir die Möglichkeit, viele schöne Orte zu besuchen, Neues zu sehen und immer wieder neue Umgebungen kennenzulernen.</p>
+          </div>
+        </article>
+      </div>
+
+      <!-- Fun Facts -->
+      <div class="funfacts">
+        <p class="script-accent funfacts__label">Fun Facts über mich</p>
+        <div class="funfacts__row">
+          <div class="funfact reveal">
+            <span class="funfact__icon">🎹</span>
+            <p>Ich spiele seit <strong>14 Jahren Klavier</strong>.</p>
+          </div>
+          <div class="funfact reveal">
+            <span class="funfact__icon">🎁</span>
+            <p>Ich bin <strong>miserabel darin, Geschenke &amp; Überraschungen für mich zu behalten</strong> – am liebsten würde ich sie sofort ausplaudern.</p>
+          </div>
+          <div class="funfact reveal">
+            <span class="funfact__icon">🧗‍♀️</span>
+            <p>Ich bin <strong>neugierig &amp; abenteuerlustig</strong> – manchmal fast ein bisschen zu sorglos.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stimmen aus dem Team -->
+      <div class="testimonials">
+        <div class="testimonials__head reveal">
+          <p class="script-accent">Stimmen aus dem Team</p>
+          <h3 class="personal__title">Was meine Teamkollegen <em>über mich sagen</em></h3>
+        </div>
+
+        <!-- Swipe-Galerie: nach links/rechts wischen (Handy) oder Pfeile/Maus ziehen (Desktop).
+             Weitere Stimme? Einfach einen <figure class="quote-card"> … </figure>-Block in den Track kopieren. -->
+        <div class="testimonials__carousel reveal">
+          <button class="tcar__nav tcar__nav--prev" id="tcarPrev" aria-label="Vorherige Stimme">&#8249;</button>
+          <div class="testimonials__track" id="testimonialsTrack">
+            <figure class="quote-card">
+              <blockquote>Was mich an ihr besonders beeindruckt, ist ihre Ruhe und Souveränität in anspruchsvollen Projektsituationen. Wenn sich Rahmenbedingungen ändern oder ein Konzept aufgrund äusserer Faktoren nicht wie geplant umgesetzt werden kann, lässt sie sich nicht aus der Ruhe bringen. Stattdessen analysiert sie die Situation strukturiert, erkennt die eigentlichen Herausforderungen und sucht zielgerichtet nach Lösungen. Dabei gelingt es ihr oft, Alternativen zu entwickeln, die den ursprünglichen Ansatz nicht nur ersetzen, sondern teilweise sogar verbessern. Ihre lösungsorientierte Denkweise und ihre Fähigkeit, auch unter Druck ruhig und fokussiert zu bleiben, machen sie zu einer wertvollen Teamkollegin.</blockquote>
+              <figcaption>
+                <span class="quote-card__name">Daniela Zryd</span>
+                <span class="quote-card__role">Berufsbildnerin</span>
+              </figcaption>
+            </figure>
+
+            <figure class="quote-card">
+              <blockquote>Elena hat ein besonderes Auge für Details, Farben und Formen. Die Zusammenarbeit mit ihr habe ich sehr geschätzt.</blockquote>
+              <figcaption>
+                <span class="quote-card__name">Laila Tiemann</span>
+                <span class="quote-card__role">Teamkollegin</span>
+              </figcaption>
+            </figure>
+
+            <figure class="quote-card">
+              <blockquote>Was ich an ihr besonders schätze, ist ihre hilfsbereite und humorvolle Art. Sie begegnet ihren Mitmenschen stets freundlich und unterstützt Kolleginnen und Kollegen, wann immer ihre Hilfe gefragt ist. Dabei nimmt sie sich Zeit für andere und trägt mit ihrer aufgeschlossenen Persönlichkeit zu einem angenehmen Arbeitsumfeld bei.<br><br>Besonders bemerkenswert ist ihre Fähigkeit, auch in hektischen Situationen eine positive Stimmung zu bewahren. Mit ihrem Humor schafft sie es oft, das Team aufzulockern und für gute Laune zu sorgen, ohne dabei die Professionalität aus den Augen zu verlieren.<br><br>Gleichzeitig überzeugt sie durch ihre Zuverlässigkeit und ihren Teamgeist. Durch ihre wertschätzende Art und ihre Hilfsbereitschaft ist sie eine geschätzte Kollegin und eine wichtige Bereicherung für das gesamte Team.</blockquote>
+              <figcaption>
+                <span class="quote-card__name">Fabio Leiggener</span>
+                <span class="quote-card__role">Mitlernender</span>
+              </figcaption>
+            </figure>
+          </div>
+          <button class="tcar__nav tcar__nav--next" id="tcarNext" aria-label="Nächste Stimme">&#8250;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FÄHIGKEITEN ============ -->
+  <section class="section skills" id="faehigkeiten" aria-labelledby="skills-title">
+    <div class="section__head reveal">
+      <span class="tag tag--orange">02 — Was ich mitbringe</span>
+      <h2 class="section__title" id="skills-title">Fähig<em>keiten</em></h2>
+      <p class="section__sub">In der Ausbildung habe ich viele Werkzeuge gesammelt – damit ich die Lehre nun mit einem vollen Werkzeugkoffer verlassen kann.</p>
+    </div>
+
+    <!-- Können-Balken (--lvl) gerne an deine Einschätzung anpassen -->
+    <div class="skills__grid">
+      <article class="skill reveal">
+        <span class="skill__icon">📸</span>
+        <h3>Fotografie</h3>
+        <p>Porträt, Tier &amp; Natur – mit Blick für Licht, Moment und Komposition.</p>
+        <div class="skill__bar"><span style="--lvl:95%"></span></div>
+      </article>
+
+      <article class="skill reveal">
+        <span class="skill__icon">🎨</span>
+        <h3>Bildbearbeitung</h3>
+        <p>Fotos veredeln und Stimmungen verstärken – mit Photoshop &amp; Lightroom.</p>
+        <div class="skill__bar"><span style="--lvl:90%"></span></div>
+      </article>
+
+      <article class="skill reveal">
+        <span class="skill__icon">🖍️</span>
+        <h3>Grafik &amp; Layout</h3>
+        <p>Farben, Typografie und Anordnung mit Gespür für Ästhetik – in InDesign &amp; Illustrator.</p>
+        <div class="skill__bar"><span style="--lvl:80%"></span></div>
+      </article>
+
+      <article class="skill reveal">
+        <span class="skill__icon">🎬</span>
+        <h3>Video &amp; Reels</h3>
+        <p>Kurze Clips schneiden und Geschichten in Bewegung erzählen – mit Premiere Pro.</p>
+        <div class="skill__bar"><span style="--lvl:80%"></span></div>
+      </article>
+
+      <article class="skill reveal">
+        <span class="skill__icon">📱</span>
+        <h3>Social Media</h3>
+        <p>Inhalte planen und gestalten, die auffallen und ankommen.</p>
+        <div class="skill__bar"><span style="--lvl:90%"></span></div>
+      </article>
+
+      <article class="skill reveal">
+        <span class="skill__icon">🗂️</span>
+        <h3>Organisation &amp; Sorgfalt</h3>
+        <p>Strukturiert, zuverlässig und mit Sinn fürs Detail.</p>
+        <div class="skill__bar"><span style="--lvl:85%"></span></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ GALERIE / ARBEITEN ============ -->
+  <section class="section gallery" id="galerie" aria-labelledby="gallery-title">
+    <div class="section__head reveal">
+      <span class="tag tag--pink">03 — Arbeiten</span>
+      <h2 class="section__title" id="gallery-title">Aus<em>gewählte Arbeiten</em></h2>
+      <p class="section__sub">Eine Auswahl meiner Projekte &amp; Lieblingsmomente. Zum Vergrössern anklicken.</p>
+    </div>
+
+    <!-- Filter-Buttons & Kacheln werden automatisch aus projekte.js erzeugt -->
+    <div class="gallery__filters reveal" id="galleryFilters"></div>
+    <div class="gallery__grid" id="galleryGrid"></div>
+    <div class="gallery__more" id="galleryMore"></div>
+  </section>
+
+  <!-- ============ WERDEGANG / TIMELINE ============ -->
+  <section class="section werdegang" id="werdegang" aria-labelledby="werdegang-title">
+    <div class="section__head reveal">
+      <span class="tag tag--orange">04 — Mein Weg</span>
+      <h2 class="section__title" id="werdegang-title">Werde<em>gang</em></h2>
+      <p class="section__sub">Von der ersten Kamera bis zur Ausbildung als Mediamatikerin.</p>
+    </div>
+
+    <!-- WERDEGANG-VORLAGE: Jahreszahlen in <span class="tl-item__year"> und Texte
+         einfach durch deine echten Stationen ersetzen. Neue Station? Einen
+         kompletten <div class="tl-item reveal"> … </div>-Block kopieren.
+         Reihenfolge: oben = heute, unten = früher. -->
+    <div class="timeline">
+      <div class="timeline__line" aria-hidden="true"><span id="timelineProgress"></span></div>
+
+      <div class="tl-item reveal">
+        <div class="tl-item__dot"></div>
+        <div class="tl-item__card">
+          <span class="tl-item__year">Aug. 2022 – Juli 2026</span>
+          <h3>Ausbildung zur Mediamatikerin EFZ</h3>
+          <p>In meiner Grundbildung begleite ich Projekte von der ersten Idee bis zur fertigen Umsetzung – kreativ, sorgfältig und gerne im Team. Besonders in der Fotografie, Bildbearbeitung, Gestaltung, im Storytelling und in der Videoproduktion kann ich meine Stärken voll einbringen.</p>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-item__dot"></div>
+        <div class="tl-item__card">
+          <span class="tl-item__year">Aug. 2021 – Juli 2022</span>
+          <h3>Kunstschule INVERS</h3>
+          <p>Ein gestalterisches Jahr an der Kunstschule INVERS, das meine kreative Grundlage und mein Gespür für Form, Farbe und Gestaltung gestärkt hat.</p>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-item__dot"></div>
+        <div class="tl-item__card">
+          <span class="tl-item__year">Feb. 2021 – Aug. 2021</span>
+          <h3>Temporäre Einsätze</h3>
+          <p>Verschiedene Aushilfstätigkeiten – Babysitting, Büroaushilfe bei der Equam und Mithilfe bei meinen Grosseltern. Hier habe ich Verantwortung und Zuverlässigkeit gelernt.</p>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-item__dot"></div>
+        <div class="tl-item__card">
+          <span class="tl-item__year">Aug. 2020 – Feb. 2021</span>
+          <h3>Ausbildung als Kauffrau</h3>
+          <p>Erste Schritte in einer kaufmännischen Lehre (rund ein halbes Jahr) – ein wertvoller Einblick, der mir zeigte, dass meine Stärken im kreativen Bereich liegen.</p>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-item__dot"></div>
+        <div class="tl-item__card">
+          <span class="tl-item__year">bis 2020</span>
+          <h3>Obligatorische Schule</h3>
+          <p>Abschluss der obligatorischen Schulzeit – die Basis für meinen weiteren Weg.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MOTIVATION ============ -->
+  <section class="section motivation" id="motivation" aria-labelledby="motivation-title">
+    <div class="section__head reveal">
+      <span class="tag tag--pink">05 — Antrieb</span>
+      <h2 class="section__title" id="motivation-title">Was mich <em>antreibt</em></h2>
+    </div>
+
+    <div class="motivation__grid">
+      <blockquote class="motivation__quote reveal">
+        <p>„Ich mache meine Visionen sichtbar – mit voller
+        <span class="hl hl--pink">Kreativität</span>.“</p>
+        <cite>— Elena</cite>
+      </blockquote>
+
+      <div class="motivation__side reveal">
+        <p class="motivation__lead">
+          Als Mediamatikerin vereine ich alles, was mich begeistert: <strong>Gestaltung,
+          Medien und Technik</strong>. Was mich wirklich antreibt, sind meine Ideen –
+          ich habe jeden Tag neue Visionen, Bilder und Träume im Kopf, die mich
+          motivieren, weiterzumachen und immer besser zu werden. Dabei gibt mir nicht
+          nur das fertige Ergebnis einen Push, sondern der ganze Weg drumherum:
+          rausgehen, unterwegs sein, gemeinsam Neues kreieren und Visionen teilen –
+          das macht mir immer wieder aufs Neue Spass.
+        </p>
+        <div class="motivation__tags">
+          <span>Fotografie</span><span>Bildbearbeitung</span><span>Design</span>
+          <span>Layout</span><span>Video</span><span>Social Media</span>
+          <span>Storytelling</span><span>Tiere</span><span>Natur</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ KONTAKT ============ -->
+  <section class="section contact" id="kontakt" aria-labelledby="contact-title">
+    <div class="contact__inner reveal">
+      <p class="script-accent">Lass uns kennenlernen</p>
+      <h2 class="contact__title" id="contact-title">Bereit für den<br><em>nächsten Schritt.</em></h2>
+      <p class="contact__lede">Ich freue mich über eine Nachricht – und stelle mich gerne persönlich vor.</p>
+
+      <div class="contact__actions">
+        <a href="assets/Lebenslauf-Elena.pdf" class="btn btn--solid btn--lg" download>
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Lebenslauf herunterladen
+        </a>
+      </div>
+
+      <div class="contact__details">
+        <a href="mailto:elba@bluewin.ch" class="btn btn--glass btn--lg">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 6h16v12H4z M4 7l8 6 8-6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          elba@bluewin.ch
+        </a>
+        <a href="tel:+41793507456" class="btn btn--glass btn--lg">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M5 4h4l2 5-3 2a12 12 0 005 5l2-3 5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          079 350 74 56
+        </a>
+      </div>
+
+      <div class="contact__refs">
+        <p class="contact__refs-title">Referenzen</p>
+        <p class="contact__refs-note">Gerne dürfen Sie sich bei meinem Lehrbetrieb erkundigen:</p>
+        <div class="contact__refs-grid">
+          <div class="ref">
+            <span class="ref__name">Corina Kohler</span>
+            <a class="ref__tel" href="tel:+41313216239">031 321 62 39</a>
+          </div>
+          <div class="ref">
+            <span class="ref__name">Daniela Zryd</span>
+            <a class="ref__tel" href="tel:+41313217142">031 321 71 42</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <footer class="footer">
+    <span class="footer__brand">Elena</span>
+    <span class="footer__meta">© <span id="year"></span> · Mediamatikerin EFZ · Portfolio</span>
+  </footer>
+
+  <!-- ============ LIGHTBOX (Bild vergrössern) ============ -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" id="lightboxClose" aria-label="Schliessen">&times;</button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" aria-label="Vorheriges Bild">&#8249;</button>
+    <figure class="lightbox__stage">
+      <img id="lightboxImg" src="" alt="" />
+      <figcaption id="lightboxCap"><h4></h4><span></span></figcaption>
+    </figure>
+    <button class="lightbox__nav lightbox__nav--next" id="lightboxNext" aria-label="Nächstes Bild">&#8250;</button>
+  </div>
+
+  <script src="projekte.js?v=10"></script>
+  <script src="script.js?v=6"></script>
+</body>
+</html>
