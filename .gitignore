@@ -8,6 +8,7 @@
 # Original-Fotos (Quellmaterial, NICHT fürs Web – die optimierten liegen in assets/)
 # Nur der Root-Ordner "Fotos" – mit führendem / verankert, damit assets/fotos/ NICHT betroffen ist
 /Fotos/
+/Screenshots Videos/
 
 # Dependencies / Logs (falls je verwendet)
 node_modules/

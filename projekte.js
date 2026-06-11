@@ -23,7 +23,8 @@ const KATEGORIEN = {
   portrait:     "Portrait",
   studio:       "Studio Session",
   outdoorshoot: "Outdoor Shootings",
-  outdoor:      "Outdoor"
+  outdoor:      "Outdoor",
+  video:        "Einblick in die Videowelt"
 };
 
 /* ====================== DEINE ARBEITEN ====================== */
@@ -69,6 +70,27 @@ const PROJEKTE = [
   { bild: "assets/galerie/os-livia-1-4.jpg",           titel: "Outdoor Shootings", kategorie: "outdoorshoot", text: "Shot by Elena" },
   { bild: "assets/galerie/ss-douglas-3.jpg",           titel: "Studio Session", kategorie: "studio", text: "Shot by Elena" },
   { bild: "assets/galerie/ss-douglas-5.jpg",           titel: "Studio Session", kategorie: "studio", text: "Shot by Elena" },
+  /* ---- Einblick in die Videowelt (Screenshots aus Videoprojekten) ---- */
+  { bild: "assets/galerie/vid-praesidial-01.jpg", titel: "Ein Tag in der Präsidialdirektion", kategorie: "video", text: "Imagefilm" },
+  { bild: "assets/galerie/vid-praesidial-02.jpg", titel: "Ein Tag in der Präsidialdirektion", kategorie: "video", text: "Imagefilm" },
+  { bild: "assets/galerie/vid-praesidial-03.jpg", titel: "Ein Tag in der Präsidialdirektion", kategorie: "video", text: "Imagefilm" },
+  { bild: "assets/galerie/vid-praesidial-04.jpg", titel: "Ein Tag in der Präsidialdirektion", kategorie: "video", text: "Imagefilm" },
+  { bild: "assets/galerie/vid-praesidial-05.jpg", titel: "Ein Tag in der Präsidialdirektion", kategorie: "video", text: "Imagefilm" },
+  { bild: "assets/galerie/vid-praesidial-06.jpg", titel: "Ein Tag in der Präsidialdirektion", kategorie: "video", text: "Imagefilm" },
+  { bild: "assets/galerie/vid-brandschutz-01.jpg", titel: "Brandschutzvideo im Erlacherhof", kategorie: "video", text: "Abschlussarbeit · Schutz & Rettung Bern" },
+  { bild: "assets/galerie/vid-brandschutz-02.jpg", titel: "Brandschutzvideo im Erlacherhof", kategorie: "video", text: "Abschlussarbeit · Schutz & Rettung Bern" },
+  { bild: "assets/galerie/vid-brandschutz-03.jpg", titel: "Brandschutzvideo im Erlacherhof", kategorie: "video", text: "Abschlussarbeit · Schutz & Rettung Bern" },
+  { bild: "assets/galerie/vid-brandschutz-04.jpg", titel: "Brandschutzvideo im Erlacherhof", kategorie: "video", text: "Abschlussarbeit · Schutz & Rettung Bern" },
+  { bild: "assets/galerie/vid-brandschutz-05.jpg", titel: "Brandschutzvideo im Erlacherhof", kategorie: "video", text: "Abschlussarbeit · Schutz & Rettung Bern" },
+  { bild: "assets/galerie/vid-brandschutz-06.jpg", titel: "Brandschutzvideo im Erlacherhof", kategorie: "video", text: "Abschlussarbeit · Schutz & Rettung Bern" },
+  { bild: "assets/galerie/vid-brandschutz-07.jpg", titel: "Brandschutzvideo im Erlacherhof", kategorie: "video", text: "Abschlussarbeit · Schutz & Rettung Bern" },
+  { bild: "assets/galerie/vid-brandschutz-08.jpg", titel: "Brandschutzvideo im Erlacherhof", kategorie: "video", text: "Abschlussarbeit · Schutz & Rettung Bern" },
+  { bild: "assets/galerie/vid-kawede-01.jpg", titel: "KaWeDe – Sanierung", kategorie: "video", text: "Videoprojekt" },
+  { bild: "assets/galerie/vid-kawede-02.jpg", titel: "KaWeDe – Sanierung", kategorie: "video", text: "Videoprojekt" },
+  { bild: "assets/galerie/vid-kawede-03.jpg", titel: "KaWeDe – Sanierung", kategorie: "video", text: "Videoprojekt" },
+  { bild: "assets/galerie/vid-kawede-04.jpg", titel: "KaWeDe – Sanierung", kategorie: "video", text: "Videoprojekt" },
+  { bild: "assets/galerie/vid-kawede-05.jpg", titel: "KaWeDe – Sanierung", kategorie: "video", text: "Videoprojekt" },
+  { bild: "assets/galerie/vid-kawede-06.jpg", titel: "KaWeDe – Sanierung", kategorie: "video", text: "Videoprojekt" },
 ];
 
 /* ============================================================
