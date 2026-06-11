@@ -255,8 +255,8 @@ body.loading{ overflow:hidden; height:100vh; }
   background:var(--glass-bg); border:1px solid var(--glass-border);
   backdrop-filter:var(--glass-blur); -webkit-backdrop-filter:var(--glass-blur); box-shadow:var(--glass-shadow);
 }
-.funfact__icon{ flex:0 0 auto; width:50px; height:50px; display:grid; place-items:center; border-radius:14px; background:var(--cream-2); }
-.funfact__icon svg{ width:23px; height:23px; color:var(--ink); }
+.funfact__icon{ flex:0 0 auto; width:28px; height:28px; display:grid; place-items:center; }
+.funfact__icon svg{ width:26px; height:26px; color:var(--ink); }
 .funfact p{ font-size:.96rem; color:var(--ink-soft); line-height:1.5; }
 .funfact strong{ color:var(--ink); font-weight:700; }
 
