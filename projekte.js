@@ -84,6 +84,8 @@ const PROJEKTE = [
   { bild: "assets/galerie/os-dsc0182.jpg", titel: "Outdoor Shootings", kategorie: "outdoorshoot", text: "Shot by Elena" },
   { bild: "assets/galerie/os-dsc0210.jpg", titel: "Outdoor Shootings", kategorie: "outdoorshoot", text: "Shot by Elena" },
   { bild: "assets/galerie/os-dsc0310.jpg", titel: "Outdoor Shootings", kategorie: "outdoorshoot", text: "Shot by Elena" },
+  { bild: "assets/galerie/ss-dsc0702.jpg", titel: "Studio Session", kategorie: "studio", text: "Shot by Elena" },
+  { bild: "assets/galerie/ss-dsc9146.jpg", titel: "Studio Session", kategorie: "studio", text: "Shot by Elena" },
   /* ---- Einblick in die Videowelt – DEAKTIVIERT (rechtliche Gründe). Zum Reaktivieren: diese Zeilen + KATEGORIEN-video einkommentieren und Bilder zurück nach assets/galerie/ legen. ---- */
   // { bild: "assets/galerie/vid-praesidial-01.jpg", titel: "Ein Tag in der Präsidialdirektion", kategorie: "video", text: "Videoprojekt" },
   // { bild: "assets/galerie/vid-praesidial-02.jpg", titel: "Ein Tag in der Präsidialdirektion", kategorie: "video", text: "Videoprojekt" },
