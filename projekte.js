@@ -111,7 +111,6 @@ const PROJEKTE = [
   { bild: "assets/galerie/tn-23.jpg", titel: "Tiere & Natur", kategorie: "tierenatur", text: "Elena und ihre Tierwelt" },
   { bild: "assets/galerie/tn-24.jpg", titel: "Tiere & Natur", kategorie: "tierenatur", text: "Elena und ihre Tierwelt" },
   { bild: "assets/galerie/tn-25.jpg", titel: "Tiere & Natur", kategorie: "tierenatur", text: "Elena und ihre Tierwelt" },
-  { bild: "assets/galerie/tn-26.jpg", titel: "Tiere & Natur", kategorie: "tierenatur", text: "Elena und ihre Tierwelt" },
   { bild: "assets/galerie/tn-27.jpg", titel: "Tiere & Natur", kategorie: "tierenatur", text: "Elena und ihre Tierwelt" },
   { bild: "assets/galerie/tn-28.jpg", titel: "Tiere & Natur", kategorie: "tierenatur", text: "Elena und ihre Tierwelt" },
   { bild: "assets/galerie/tn-29.jpg", titel: "Tiere & Natur", kategorie: "tierenatur", text: "Elena und ihre Tierwelt" },
