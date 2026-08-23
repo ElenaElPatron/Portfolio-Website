@@ -85,7 +85,6 @@ const PROJEKTE = [
   { bild: "assets/galerie/os-dsc0182.jpg", titel: "Outdoor Shootings", kategorie: "outdoorshoot", text: "Shot by Elena" },
   { bild: "assets/galerie/os-dsc0210.jpg", titel: "Outdoor Shootings", kategorie: "outdoorshoot", text: "Shot by Elena" },
   { bild: "assets/galerie/os-dsc0310.jpg", titel: "Outdoor Shootings", kategorie: "outdoorshoot", text: "Shot by Elena" },
-  { bild: "assets/galerie/ss-dsc0702.jpg", titel: "Studio Session", kategorie: "studio", text: "Shot by Elena" },
   { bild: "assets/galerie/ss-dsc9146.jpg", titel: "Studio Session", kategorie: "studio", text: "Shot by Elena" },
   /* ---- Tiere & Natur (iPhone-Aufnahmen) ---- */
   { bild: "assets/galerie/tn-01.jpg", titel: "Tiere & Natur", kategorie: "tierenatur", text: "Elena und ihre Tierwelt" },
@@ -95,7 +94,6 @@ const PROJEKTE = [
   { bild: "assets/galerie/tn-05.jpg", titel: "Tiere & Natur", kategorie: "tierenatur", text: "Elena und ihre Tierwelt" },
   { bild: "assets/galerie/tn-06.jpg", titel: "Tiere & Natur", kategorie: "tierenatur", text: "Elena und ihre Tierwelt" },
   { bild: "assets/galerie/tn-07.jpg", titel: "Tiere & Natur", kategorie: "tierenatur", text: "Natur" },
-  { bild: "assets/galerie/tn-08.jpg", titel: "Tiere & Natur", kategorie: "tierenatur", text: "Elena und ihre Tierwelt" },
   { bild: "assets/galerie/tn-09.jpg", titel: "Tiere & Natur", kategorie: "tierenatur", text: "Elena und ihre Tierwelt" },
   { bild: "assets/galerie/tn-10.jpg", titel: "Tiere & Natur", kategorie: "tierenatur", text: "Natur" },
   { bild: "assets/galerie/tn-11.jpg", titel: "Tiere & Natur", kategorie: "tierenatur", text: "Natur" },
@@ -125,7 +123,6 @@ const PROJEKTE = [
   { bild: "assets/galerie/tn-35.jpg", titel: "Tiere & Natur", kategorie: "tierenatur", text: "Elena und ihre Tierwelt" },
   { bild: "assets/galerie/tn-36.jpg", titel: "Tiere & Natur", kategorie: "tierenatur", text: "Elena und ihre Tierwelt" },
   { bild: "assets/galerie/tn-37.jpg", titel: "Tiere & Natur", kategorie: "tierenatur", text: "Elena und ihre Tierwelt" },
-  { bild: "assets/galerie/tn-38.jpg", titel: "Tiere & Natur", kategorie: "tierenatur", text: "Elena und ihre Tierwelt" },
   { bild: "assets/galerie/tn-39.jpg", titel: "Tiere & Natur", kategorie: "tierenatur", text: "Elena und ihre Tierwelt" },
   { bild: "assets/galerie/tn-40.jpg", titel: "Tiere & Natur", kategorie: "tierenatur", text: "Elena und ihre Tierwelt" },
   { bild: "assets/galerie/tn-41.jpg", titel: "Tiere & Natur", kategorie: "tierenatur", text: "Elena und ihre Tierwelt" },
