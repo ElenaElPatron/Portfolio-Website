@@ -24,9 +24,8 @@ const KATEGORIEN = {
   studio:       "Studio Session",
   outdoorshoot: "Outdoor Shootings",
   outdoor:      "Outdoor",
-  tierenatur:   "Tiere & Natur"
-  // DEAKTIVIERT (rechtliche Gründe – bei Bedarf wieder aktivieren):
-  // , video:        "Einblick in die Videowelt"
+  tierenatur:   "Tiere & Natur",
+  video:        "Videos"
 };
 
 /* ====================== DEINE ARBEITEN ====================== */
@@ -129,6 +128,9 @@ const PROJEKTE = [
   { bild: "assets/galerie/tn-43.jpg", titel: "Tiere & Natur", kategorie: "tierenatur", text: "Natur" },
   { bild: "assets/galerie/tn-44.jpg", titel: "Tiere & Natur", kategorie: "tierenatur", text: "Elena und ihre Tierwelt" },
   { bild: "assets/galerie/tn-45.jpg", titel: "Tiere & Natur", kategorie: "tierenatur", text: "Elena und ihre Tierwelt" },
+  /* ---- Videos (video = Pfad zur .mp4, bild = Poster/Vorschaubild) ---- */
+  { video: "assets/videos/schulprojekt-hund.mp4", bild: "assets/videos/schulprojekt-hund-poster.jpg", titel: "Videoprojekt in der Berufsschule", kategorie: "video", text: "Kurzfilm „Der verlorene Ball“ – gedreht mit der Hündin Lona von Elena" },
+  { video: "assets/videos/brandschutz-ipa.mp4", bild: "assets/videos/brandschutz-ipa-poster.jpg", titel: "Abschlussarbeit IPA 2026", kategorie: "video", text: "Brandschutzvideo für den Erlacherhof, Stadt Bern" },
   /* ---- Einblick in die Videowelt – DEAKTIVIERT (rechtliche Gründe). Zum Reaktivieren: diese Zeilen + KATEGORIEN-video einkommentieren und Bilder zurück nach assets/galerie/ legen. ---- */
   // { bild: "assets/galerie/vid-praesidial-01.jpg", titel: "Ein Tag in der Präsidialdirektion", kategorie: "video", text: "Videoprojekt" },
   // { bild: "assets/galerie/vid-praesidial-02.jpg", titel: "Ein Tag in der Präsidialdirektion", kategorie: "video", text: "Videoprojekt" },
@@ -180,9 +182,23 @@ const PROJEKTE = [
 
   // Galerie-Kacheln bauen
   const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-  grid.innerHTML = PROJEKTE.map(p => `
+  grid.innerHTML = PROJEKTE.map(p => {
+    if(p.video){
+      return `
+    <figure class="gitem gitem--video reveal" data-cat="${esc(p.kategorie)}">
+      <div class="gitem__video">
+        <video controls preload="none" playsinline poster="${esc(p.bild)}">
+          <source src="${esc(p.video)}" type="video/mp4" />
+          Dein Browser unterstützt die Videowiedergabe leider nicht.
+        </video>
+      </div>
+      <figcaption class="gitem__vcap"><h4>${esc(p.titel)}</h4><span>${esc(p.text)}</span></figcaption>
+    </figure>`;
+    }
+    return `
     <figure class="gitem reveal" data-cat="${esc(p.kategorie)}">
       <img src="${esc(p.bild)}" alt="${esc(p.titel)}" loading="lazy" />
       <figcaption><h4>${esc(p.titel)}</h4><span>${esc(p.text)}</span></figcaption>
-    </figure>`).join("");
+    </figure>`;
+  }).join("");
 })();

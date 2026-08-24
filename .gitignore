@@ -13,3 +13,5 @@
 # Dependencies / Logs (falls je verwendet)
 node_modules/
 *.log
+/Videos/
+*.sb-*

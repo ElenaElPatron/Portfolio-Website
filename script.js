@@ -136,7 +136,7 @@
   let current = -1;
 
   const visibleItems = () =>
-    [...grid.querySelectorAll('.gitem')].filter(it => !it.classList.contains('is-hidden'));
+    [...grid.querySelectorAll('.gitem')].filter(it => !it.classList.contains('is-hidden') && !it.classList.contains('gitem--video'));
 
   const show = (i) => {
     const items = visibleItems();
@@ -164,7 +164,7 @@
   // Klick auf eine Galerie-Kachel (delegiert → funktioniert auch für dynamische Kacheln)
   grid.addEventListener('click', (e) => {
     const it = e.target.closest('.gitem');
-    if(it) open(it);
+    if(it && !it.classList.contains('gitem--video')) open(it);
   });
 
   document.getElementById('lightboxClose').addEventListener('click', close);
